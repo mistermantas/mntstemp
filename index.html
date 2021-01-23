@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+  <head prefix="og: http://ogp.me/ns/website#">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Meta -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mistermantas">
+    <meta name="twitter:creator" content="@mistermantas">
+    <meta name="og:url" content="{{ .Permalink }}">
+    <meta name="canonical" content="{{ .Permalink }}">
+    <meta name="og:title" content="{{ .Title }}"> 
+    <title>MNTS</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=2">
+    <link rel="manifest" href="/favicon/site.webmanifest?v=2">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=2" color="#000000">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=2">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=2">
+    <meta name="theme-color" content="#000000"> 
+  </head>
+
+<body class="lang {{ with .Params.class }}{{ . }}{{ end }}">
+ 
+ 
+    <style> 
+    html {
+      font-family: sans-serif;
+      font-size: 18px;
+      line-height: 1.75;
+      letter-spacing: 0.25px;
+    }
+      a {
+        text-decoration: none;
+        color: #000;
+        will-change: box-shadow, transform, opacity;
+        transition: box-shadow 0.2s, transform 0.2s, opacity 0.2s;
+      }
+
+      a:visited {
+        border-color: #cdcdcd;
+      }
+
+      a:hover {
+        box-shadow: 0 2px 4px rgba(0,0,0, 0.25);
+        transform: translateY(-2px);
+      }
+
+      a:active {
+        box-shadow: none;
+        opacity: 0.6;
+        transform: scale(0.96) translateY(0);
+      }
+
+      svg {
+        height: 2rem;
+        width: 2rem;
+      }
+
+      main {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      .padd-xl { padding-top: 64px; }
+
+      h1 {
+        font-weight: normal;
+        color: #000;
+      }
+
+      .card {
+        display: inline-table;
+        padding: 20px;
+        border: 2px solid #dedede;
+        width: 40%;
+        margin: 4px;
+      }
+
+      small {
+        opacity: 0.6;
+      } 
+
+      .footer { display: none; }
+ 
+      img { height: 52px; width: auto;  }
+    </style>
+ 
+
+
+    <main class="padd-xl">
+      
+      <div class="padd-xl"></div>
+      <img src="MNTSred.svg" class="size-xl" alt="Logo">
+      <div class="padd-xl"></div>
+      
+      <p>Atsiprašau, šiuo metu atnaujinu svetainę. Galite kreiptis paštu hi@mnts.lt arba žiūrėti į mano GitHub paskyrą @mistermantas.</p>
+
+      <p>Sorry, I am updating this website at the moment. You can always contact me by email - hi@mnts.lt - or look at my GitHub @mistermantas.</p>
+    </main> 
+
+  </body></html>
